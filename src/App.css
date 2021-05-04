@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.divider{
+  display: flex;
+  justify-content: space-around;
+}
+.divider div input {
+  padding: 10px;
+  margin: 10px
+}
+.Game {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin:20px 0 0 80px;
+ 
+  
+}
+.Game img{
+  height:300px;
+  width: 300px;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+}
